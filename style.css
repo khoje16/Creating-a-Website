@@ -30,3 +30,91 @@ span{
 .links a:hover{
     color: orangered;
 }
+main{
+    width: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 2px solid black;*/
+    flex-direction: column;
+    text-align: center;
+    background-image: url(image1.jpg);
+    background-size: cover;
+}
+main h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: orangered;
+}
+main p{
+    padding-left: 60px;
+    padding-right: 60px;
+    color: orangered;
+    font-weight: bold;
+}
+section{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+section p{
+    color: white;
+    font-size: 20px;
+}
+section input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+aside{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+aside image{
+    height: 100px;
+    width: 100px;
+}
+.card{
+    height: 300px;
+    width: 250px;
+   /* border: 2px solid black;*/
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+aside h3{
+    margin: 20px;
+    text-align: center;
+}
+aside p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: light;
+}
+footer{
+    width: auto;
+    height: 70px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
